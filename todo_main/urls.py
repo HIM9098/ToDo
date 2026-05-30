@@ -21,6 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.home, name = 'home'),
 
-    path('todo/',include('todos.urls'))
+    path('todo/',include('todos.urls')),
 ]
   
